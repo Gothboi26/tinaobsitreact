@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+.name {
+  font-family: "Arial", sans-serif;
+  color: bur;
+  background: white;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 10px;
+}
+.name:hover {
+  background-color: lightcoral;
+  color: white;
+  transition: 0.9s;
+}
+.title {
+  color: burlywood;
+}
+.title:hover {
+  background: lightcoral;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
